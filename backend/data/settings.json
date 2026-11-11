@@ -1,0 +1,12 @@
+{
+  "llm_provider": "gemini",
+  "llm_model": "gemini-1.5-pro",
+  "embedding_model": "text-embedding-004",
+  "google_api_key": "",
+  "youtube_api_key": "",
+  "openai_api_key": "",
+  "temperature": 0.25,
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "top_k_chunks": 4
+}

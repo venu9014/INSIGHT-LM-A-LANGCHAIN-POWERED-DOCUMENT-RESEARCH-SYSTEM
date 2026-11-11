@@ -1,0 +1,80 @@
+[
+  {
+    "id": "usr-aarav-sharma",
+    "name": "Aarav Sharma",
+    "username": "aarav_student",
+    "email": "aarav.sharma@research.edu.in",
+    "role": "Student",
+    "avatar": "AS",
+    "institution": "Indian Institute of Technology (IIT) Delhi",
+    "department": "Department of Computer Science & Engineering",
+    "bio": "B.Tech CSE student researching multi-head attention and transformer representations.",
+    "password_hash": "scrypt:32768:8:1$an3O9HVUlRlE4LB4$189216173de2354e5114ac2546ee4363de7d77fe100d6269250a26593107ff5d135a9fe4e8505e6bfd7ab750d82ac8905df673b954c01654df8503a44078f18d",
+    "created_at": "2026-11-11T10:00:00Z"
+  },
+  {
+    "id": "usr-priya-patel",
+    "name": "Priya Patel",
+    "username": "priya_student",
+    "email": "priya.patel@research.edu.in",
+    "role": "Student",
+    "avatar": "PP",
+    "institution": "BITS Pilani",
+    "department": "School of Computing & Artificial Intelligence",
+    "bio": "Final year undergraduate working on retrieval-augmented generation benchmarks.",
+    "password_hash": "scrypt:32768:8:1$8ntMiNva6eqCB6YN$9094e70cc1aa7792e95be9bcc6c040e7b3877148b6df8ac180f5f41ebfbe0a79c47b1a41c39a2ee58efd56778b07c82861e0e4529b3d35684c36389db0da04cd",
+    "created_at": "2026-11-11T10:05:00Z"
+  },
+  {
+    "id": "usr-rahul-verma",
+    "name": "Prof. Rahul Verma",
+    "username": "rahul_prof",
+    "email": "rahul.verma@faculty.edu.in",
+    "role": "Teacher",
+    "avatar": "RV",
+    "institution": "Indian Institute of Technology (IIT) Bombay",
+    "department": "Department of Electrical Engineering & Artificial Intelligence",
+    "bio": "Associate Professor lecturing CS-804: Neural Representation Learning.",
+    "password_hash": "scrypt:32768:8:1$v8HxgwtYhsTNqoCO$ab1c730171e697adadc351fde66d829d81a2aadeac7a3ae372f423dc745b45091e1922d5b6dffffe5b1a8ebad0886d3892140e7ccd365d138f41ac043b95b6e3",
+    "created_at": "2026-11-11T10:10:00Z"
+  },
+  {
+    "id": "usr-sneha-iyer",
+    "name": "Prof. Sneha Iyer",
+    "username": "sneha_prof",
+    "email": "sneha.iyer@faculty.edu.in",
+    "role": "Teacher",
+    "avatar": "SI",
+    "institution": "Indian Institute of Science (IISc) Bangalore",
+    "department": "Division of EECS",
+    "bio": "Professor and Head of Natural Language Processing Pedagogy.",
+    "password_hash": "scrypt:32768:8:1$ENWSHPxtwIP2l8qQ$7dd98ec2b6de9e02b8c145a1a7ea7b7f80ba328412ba653a5b94e3a6bf44f3ad104aa680dfa27f74db0399f5bf9d24e67144cc17726e760651bc8e1cfe946291",
+    "created_at": "2026-11-11T10:15:00Z"
+  },
+  {
+    "id": "usr-arjun-reddy",
+    "name": "Dr. Arjun Reddy",
+    "username": "arjun_research",
+    "email": "arjun.reddy@lab.edu.in",
+    "role": "Researcher",
+    "avatar": "AR",
+    "institution": "Indian Institute of Technology (IIT) Madras",
+    "department": "Centre for Data Science & AI (RBC-DSAI)",
+    "bio": "Principal Research Scientist specializing in HNSW graph traversal and vector indexing.",
+    "password_hash": "scrypt:32768:8:1$EdyfhClMeEZRjgT7$28f8c44379be5b1205b45c26ef9f321dcd0968cacb027e571e8ae566144b2a472f12f717b75868961f521acf3d91aba0ecc7fbbb83fcfefd347063314bcb368d",
+    "created_at": "2026-11-11T10:20:00Z"
+  },
+  {
+    "id": "usr-ananya-nair",
+    "name": "Dr. Ananya Nair",
+    "username": "ananya_research",
+    "email": "ananya.nair@lab.edu.in",
+    "role": "Researcher",
+    "avatar": "AN",
+    "institution": "IIIT Hyderabad",
+    "department": "Language Technologies Research Centre",
+    "bio": "Postdoctoral Research Fellow investigating hallucination mitigation in RAG.",
+    "password_hash": "scrypt:32768:8:1$TCBEsi1Oh95OpBbM$2f18ff45fdb29f08999c66274c0cc8ff8e0d2f11fb0928837c3be7ef1f1402f13d0ece4da259a8a380c11c91f81b7e9a2c0a130614fc54dbadb9943bd72a9734",
+    "created_at": "2026-11-11T10:25:00Z"
+  }
+]

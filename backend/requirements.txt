@@ -1,0 +1,10 @@
+# Intelligent Document Research Assistant — Backend Dependencies
+flask>=3.0.0
+flask-cors>=4.0.0
+pypdf>=4.0.0
+chromadb>=0.4.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+duckduckgo_search>=6.0.0
+python-docx>=1.0.0
+pytest>=8.0.0

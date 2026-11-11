@@ -1,0 +1,440 @@
+[
+  {
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "examType": "Midterm Examination",
+    "durationMinutes": 90,
+    "instructions": [
+      "Answer all questions."
+    ],
+    "sections": [
+      "Section 1"
+    ],
+    "questions": [
+      {
+        "id": "test-q1",
+        "format": "mcq",
+        "question": "Which layer replaces recurrence?",
+        "options": [
+          "Self-Attention",
+          "Convolution",
+          "Dense",
+          "Pooling"
+        ],
+        "correctIndex": 0,
+        "marks": 5,
+        "explanation": "Self-attention enables parallel computation."
+      },
+      {
+        "id": "test-q2",
+        "format": "fill_blank",
+        "question": "ChromaDB stores high-dimensional ___ vectors.",
+        "correctAnswer": "embedding",
+        "acceptedAnswers": [
+          "embedding",
+          "embeddings"
+        ],
+        "marks": 5,
+        "explanation": "Dense embeddings represent semantic vectors."
+      }
+    ],
+    "id": "paper-b5ce2f7f",
+    "status": "published",
+    "createdAt": "2026-11-11T19:28:31Z",
+    "totalMarks": 10
+  },
+  {
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "examType": "Midterm Examination",
+    "durationMinutes": 90,
+    "instructions": [
+      "Answer all questions."
+    ],
+    "sections": [
+      "Section 1"
+    ],
+    "questions": [
+      {
+        "id": "test-q1",
+        "format": "mcq",
+        "question": "Which layer replaces recurrence?",
+        "options": [
+          "Self-Attention",
+          "Convolution",
+          "Dense",
+          "Pooling"
+        ],
+        "correctIndex": 0,
+        "marks": 5,
+        "explanation": "Self-attention enables parallel computation."
+      },
+      {
+        "id": "test-q2",
+        "format": "fill_blank",
+        "question": "ChromaDB stores high-dimensional ___ vectors.",
+        "correctAnswer": "embedding",
+        "acceptedAnswers": [
+          "embedding",
+          "embeddings"
+        ],
+        "marks": 5,
+        "explanation": "Dense embeddings represent semantic vectors."
+      }
+    ],
+    "id": "paper-d34c1051",
+    "status": "published",
+    "createdAt": "2026-11-11T19:27:16Z",
+    "totalMarks": 10
+  },
+  {
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "examType": "Midterm Examination",
+    "durationMinutes": 90,
+    "instructions": [
+      "Answer all questions."
+    ],
+    "sections": [
+      "Section 1"
+    ],
+    "questions": [
+      {
+        "id": "test-q1",
+        "format": "mcq",
+        "question": "Which layer replaces recurrence?",
+        "options": [
+          "Self-Attention",
+          "Convolution",
+          "Dense",
+          "Pooling"
+        ],
+        "correctIndex": 0,
+        "marks": 5,
+        "explanation": "Self-attention enables parallel computation."
+      },
+      {
+        "id": "test-q2",
+        "format": "fill_blank",
+        "question": "ChromaDB stores high-dimensional ___ vectors.",
+        "correctAnswer": "embedding",
+        "acceptedAnswers": [
+          "embedding",
+          "embeddings"
+        ],
+        "marks": 5,
+        "explanation": "Dense embeddings represent semantic vectors."
+      }
+    ],
+    "id": "paper-a61df7b8",
+    "status": "published",
+    "createdAt": "2026-11-11T19:09:05Z",
+    "totalMarks": 10
+  },
+  {
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "examType": "Midterm Examination",
+    "durationMinutes": 90,
+    "instructions": [
+      "Answer all questions."
+    ],
+    "sections": [
+      "Section 1"
+    ],
+    "questions": [
+      {
+        "id": "test-q1",
+        "format": "mcq",
+        "question": "Which layer replaces recurrence?",
+        "options": [
+          "Self-Attention",
+          "Convolution",
+          "Dense",
+          "Pooling"
+        ],
+        "correctIndex": 0,
+        "marks": 5,
+        "explanation": "Self-attention enables parallel computation."
+      },
+      {
+        "id": "test-q2",
+        "format": "fill_blank",
+        "question": "ChromaDB stores high-dimensional ___ vectors.",
+        "correctAnswer": "embedding",
+        "acceptedAnswers": [
+          "embedding",
+          "embeddings"
+        ],
+        "marks": 5,
+        "explanation": "Dense embeddings represent semantic vectors."
+      }
+    ],
+    "id": "paper-aad50052",
+    "status": "published",
+    "createdAt": "2026-11-11T18:27:54Z",
+    "totalMarks": 10
+  },
+  {
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "examType": "Midterm Examination",
+    "durationMinutes": 90,
+    "instructions": [
+      "Answer all questions."
+    ],
+    "sections": [
+      "Section 1"
+    ],
+    "questions": [
+      {
+        "id": "test-q1",
+        "format": "mcq",
+        "question": "Which layer replaces recurrence?",
+        "options": [
+          "Self-Attention",
+          "Convolution",
+          "Dense",
+          "Pooling"
+        ],
+        "correctIndex": 0,
+        "marks": 5,
+        "explanation": "Self-attention enables parallel computation."
+      },
+      {
+        "id": "test-q2",
+        "format": "fill_blank",
+        "question": "ChromaDB stores high-dimensional ___ vectors.",
+        "correctAnswer": "embedding",
+        "acceptedAnswers": [
+          "embedding",
+          "embeddings"
+        ],
+        "marks": 5,
+        "explanation": "Dense embeddings represent semantic vectors."
+      }
+    ],
+    "id": "paper-4001f52e",
+    "status": "published",
+    "createdAt": "2026-11-11T18:17:07Z",
+    "totalMarks": 10
+  },
+  {
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "examType": "Midterm Examination",
+    "durationMinutes": 90,
+    "instructions": [
+      "Answer all questions."
+    ],
+    "sections": [
+      "Section 1"
+    ],
+    "questions": [
+      {
+        "id": "test-q1",
+        "format": "mcq",
+        "question": "Which layer replaces recurrence?",
+        "options": [
+          "Self-Attention",
+          "Convolution",
+          "Dense",
+          "Pooling"
+        ],
+        "correctIndex": 0,
+        "marks": 5,
+        "explanation": "Self-attention enables parallel computation."
+      },
+      {
+        "id": "test-q2",
+        "format": "fill_blank",
+        "question": "ChromaDB stores high-dimensional ___ vectors.",
+        "correctAnswer": "embedding",
+        "acceptedAnswers": [
+          "embedding",
+          "embeddings"
+        ],
+        "marks": 5,
+        "explanation": "Dense embeddings represent semantic vectors."
+      }
+    ],
+    "id": "paper-8fb7ae44",
+    "status": "published",
+    "createdAt": "2026-11-11T18:16:43Z",
+    "totalMarks": 10
+  },
+  {
+    "id": "paper-model-1",
+    "title": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "subject": "Natural Language Processing & Artificial Intelligence",
+    "course": "CS-804: Neural Representation Learning",
+    "gradeLevel": "Final Year Undergraduate / Postgraduate",
+    "examType": "End-Semester Examination",
+    "durationMinutes": 180,
+    "totalMarks": 50,
+    "status": "published",
+    "createdAt": "2026-11-10T10:00:00Z",
+    "instructions": [
+      "Answer all questions in sequential order.",
+      "Section A comprises objective questions (MCQs, True/False, Fill in blanks).",
+      "Section B comprises technical short & long answer questions.",
+      "Section C comprises comprehensive descriptive & architectural formulation.",
+      "Section D comprises quantitative and numerical analysis.",
+      "Section E comprises practical case study and real-world failure analysis."
+    ],
+    "sections": [
+      "Part A: Objective & Conceptual Foundations",
+      "Part B: Technical Explanations & Analytical Concepts",
+      "Part C: System Architecture & Research Synthesis",
+      "Part D: Quantitative & Computational Problems",
+      "Part E: Applied Case Studies & Engineering Scenarios"
+    ],
+    "questions": [
+      {
+        "id": "q-mcq-1",
+        "format": "mcq",
+        "section": "Part A: Objective & Conceptual Foundations",
+        "question": "According to the Transformer architecture, why is the Scaled Dot-Product Attention divided by sqrt(d_k)?",
+        "options": [
+          "To decrease the computational matrix dimensionality",
+          "To prevent dot products from growing excessively large and causing vanishing gradients in softmax",
+          "To enforce orthogonality across the weight matrices",
+          "To guarantee symmetric attention distributions across all layers"
+        ],
+        "correctIndex": 1,
+        "marks": 2,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation.",
+        "sourceReference": "Section 3.2.1: Scaled Dot-Product Attention"
+      },
+      {
+        "id": "q-tf-1",
+        "format": "true_false",
+        "section": "Part A: Objective & Conceptual Foundations",
+        "question": "Self-attention layers have an O(1) sequential path length connecting any two input tokens, whereas Recurrent Neural Networks require O(n) sequential operations.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctIndex": 0,
+        "marks": 2,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck.",
+        "sourceReference": "Table 1: Maximum Path Lengths"
+      },
+      {
+        "id": "q-fb-1",
+        "format": "fill_blank",
+        "section": "Part A: Objective & Conceptual Foundations",
+        "question": "In Retrieval-Augmented Generation, the non-parametric memory stores document chunks as dense vectors inside a ___ database.",
+        "correctAnswer": "vector",
+        "acceptedAnswers": [
+          "vector",
+          "chromadb",
+          "vector store",
+          "vectordb"
+        ],
+        "marks": 2,
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW).",
+        "sourceReference": "Section 2: Non-Parametric Memory"
+      },
+      {
+        "id": "q-sa-1",
+        "format": "short_answer",
+        "section": "Part B: Technical Explanations & Analytical Concepts",
+        "question": "Define 'hallucination' in the context of Large Language Models and state two distinct ways Retrieval-Augmented Generation mitigates it.",
+        "marks": 4,
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence.",
+        "keyPoints": [
+          "Definition of hallucination: ungrounded or fabricated assertions",
+          "Mitigation 1: conditioning generation on retrieved evidence chunks",
+          "Mitigation 2: source citations enabling factual verification"
+        ]
+      },
+      {
+        "id": "q-la-1",
+        "format": "long_answer",
+        "section": "Part B: Technical Explanations & Analytical Concepts",
+        "question": "Explain the Multi-Head Attention mechanism in detail. Why is projecting queries, keys, and values into multiple subspaces superior to applying a single attention function?",
+        "marks": 8,
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies.",
+        "keyPoints": [
+          "Linear projection into h subspaces (queries, keys, values)",
+          "Parallel execution of scaled dot-product attention",
+          "Concatenation and final projection (W_O)",
+          "Advantage: attending to diverse relational subspaces simultaneously vs averaging"
+        ]
+      },
+      {
+        "id": "q-desc-1",
+        "format": "descriptive",
+        "section": "Part C: System Architecture & Research Synthesis",
+        "question": "Design and critically analyze an end-to-end Document-Centric Research Assistant architecture. Detail the ingestion pipeline, embedding generation, vector indexing using HNSW, retrieval augmentation, and the prompt synthesis strategy for diverse academic roles.",
+        "marks": 16,
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas.",
+        "rubric": [
+          {
+            "criterion": "Ingestion & chunking pipeline formulation",
+            "marks": 4
+          },
+          {
+            "criterion": "Vector embeddings and HNSW graph indexing theory",
+            "marks": 4
+          },
+          {
+            "criterion": "Retriever design and similarity scoring mechanics",
+            "marks": 4
+          },
+          {
+            "criterion": "Role-based contextual prompt synthesis and evaluation metrics",
+            "marks": 4
+          }
+        ]
+      },
+      {
+        "id": "q-num-1",
+        "format": "numerical",
+        "section": "Part D: Quantitative & Computational Problems",
+        "question": "Calculate the total number of trainable parameters in a standard Multi-Head Attention layer where d_model = 512, number of heads h = 8, d_k = d_v = d_model / h = 64, including the output projection matrix W_O. Neglect bias terms.",
+        "givenData": "d_model = 512, h = 8, d_k = 64, d_v = 64. Weight matrices: W_Q (d_model x (h * d_k)), W_K (d_model x (h * d_k)), W_V (d_model x (h * d_v)), W_O ((h * d_v) x d_model).",
+        "formula": "Parameters = (W_Q) + (W_K) + (W_V) + (W_O) = 4 * (d_model * d_model)",
+        "stepByStepSolution": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576).",
+        "correctNumericalValue": 1048576,
+        "unit": "parameters",
+        "marks": 6
+      },
+      {
+        "id": "q-cs-1",
+        "format": "case_study",
+        "section": "Part E: Applied Case Studies & Engineering Scenarios",
+        "question": "Case Study: An engineering university deploys an automated AI tutor for a 400-student distributed systems course. In the first week, students report that when asking questions regarding textbook chapter 4 (Paxos Consensus), the AI generates answers that contradict the syllabus, confusing Paxos with Raft leader election. An investigation reveals that the system was relying on zero-shot generation without document grounding.",
+        "scenario": "Case Study: An engineering university deploys an automated AI tutor for a 400-student distributed systems course. In the first week, students report that when asking questions regarding textbook chapter 4 (Paxos Consensus), the AI generates answers that contradict the syllabus, confusing Paxos with Raft leader election. An investigation reveals that the system was relying on zero-shot generation without document grounding.",
+        "subQuestions": [
+          {
+            "id": "q-cs-1-sub1",
+            "question": "Identify the root failure mode and explain how implementing a ChromaDB RAG pipeline prevents this discrepancy.",
+            "marks": 5,
+            "modelAnswer": "The failure mode is ungrounded parametric hallucination. Implementing ChromaDB RAG indexes the course textbook into distinct chunks. When a student queries Paxos, vector similarity retrieves exact paragraphs from chapter 4, constraining the LLM to synthesize only facts from the course curriculum."
+          },
+          {
+            "id": "q-cs-1-sub2",
+            "question": "Propose an evaluation metric to continuously monitor whether responses are faithful to the syllabus before presenting them to students.",
+            "marks": 5,
+            "modelAnswer": "Implement an automated grounding score / faithfulness metric (e.g. Ragas Faithfulness or citation-claim entailment checking). If the semantic alignment between claims in the answer and retrieved passages falls below a threshold (e.g. 0.85), flag the response for review or request re-retrieval."
+          }
+        ],
+        "marks": 10
+      }
+    ]
+  }
+]

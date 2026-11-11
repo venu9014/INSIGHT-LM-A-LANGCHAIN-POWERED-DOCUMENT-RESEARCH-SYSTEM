@@ -1,0 +1,1119 @@
+[
+  {
+    "id": "sub-8d920088",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T19:28:31Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 35.0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 47.0,
+    "totalPossibleMarks": 50,
+    "percentage": 94.0,
+    "status": "final_graded",
+    "teacherFeedback": "Outstanding technical depth and clear formulation.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": true,
+        "awardedMarks": 4.0,
+        "maxMarks": 4,
+        "feedback": "Graded by instructor: 4.0 marks awarded.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": true,
+        "awardedMarks": 7.0,
+        "maxMarks": 8,
+        "feedback": "Graded by instructor: 7.0 marks awarded.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": true,
+        "awardedMarks": 15.0,
+        "maxMarks": 16,
+        "feedback": "Graded by instructor: 15.0 marks awarded.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": true,
+        "awardedMarks": 9.0,
+        "maxMarks": 10,
+        "feedback": "Graded by instructor: 9.0 marks awarded.",
+        "modelAnswer": ""
+      }
+    },
+    "gradedAt": "2026-11-11T19:28:31Z"
+  },
+  {
+    "id": "sub-09cd798a",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T19:28:31Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 12,
+    "totalPossibleMarks": 50,
+    "percentage": 24.0,
+    "status": "pending_teacher_review",
+    "teacherFeedback": "Objective section auto-graded. Subjective questions queued for instructor review.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 4,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 8,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 16,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 10,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": ""
+      }
+    }
+  },
+  {
+    "id": "sub-cb1b6a33",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T19:27:17Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 35.0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 47.0,
+    "totalPossibleMarks": 50,
+    "percentage": 94.0,
+    "status": "final_graded",
+    "teacherFeedback": "Outstanding technical depth and clear formulation.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": true,
+        "awardedMarks": 4.0,
+        "maxMarks": 4,
+        "feedback": "Graded by instructor: 4.0 marks awarded.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": true,
+        "awardedMarks": 7.0,
+        "maxMarks": 8,
+        "feedback": "Graded by instructor: 7.0 marks awarded.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": true,
+        "awardedMarks": 15.0,
+        "maxMarks": 16,
+        "feedback": "Graded by instructor: 15.0 marks awarded.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": true,
+        "awardedMarks": 9.0,
+        "maxMarks": 10,
+        "feedback": "Graded by instructor: 9.0 marks awarded.",
+        "modelAnswer": ""
+      }
+    },
+    "gradedAt": "2026-11-11T19:27:17Z"
+  },
+  {
+    "id": "sub-6e1a4762",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T19:27:17Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 12,
+    "totalPossibleMarks": 50,
+    "percentage": 24.0,
+    "status": "pending_teacher_review",
+    "teacherFeedback": "Objective section auto-graded. Subjective questions queued for instructor review.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 4,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 8,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 16,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 10,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": ""
+      }
+    }
+  },
+  {
+    "id": "sub-dbf8bcd8",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T19:09:05Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 35.0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 47.0,
+    "totalPossibleMarks": 50,
+    "percentage": 94.0,
+    "status": "final_graded",
+    "teacherFeedback": "Outstanding technical depth and clear formulation.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": true,
+        "awardedMarks": 4.0,
+        "maxMarks": 4,
+        "feedback": "Graded by instructor: 4.0 marks awarded.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": true,
+        "awardedMarks": 7.0,
+        "maxMarks": 8,
+        "feedback": "Graded by instructor: 7.0 marks awarded.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": true,
+        "awardedMarks": 15.0,
+        "maxMarks": 16,
+        "feedback": "Graded by instructor: 15.0 marks awarded.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": true,
+        "awardedMarks": 9.0,
+        "maxMarks": 10,
+        "feedback": "Graded by instructor: 9.0 marks awarded.",
+        "modelAnswer": ""
+      }
+    },
+    "gradedAt": "2026-11-11T19:09:05Z"
+  },
+  {
+    "id": "sub-b03f5c3a",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T19:09:05Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 12,
+    "totalPossibleMarks": 50,
+    "percentage": 24.0,
+    "status": "pending_teacher_review",
+    "teacherFeedback": "Objective section auto-graded. Subjective questions queued for instructor review.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 4,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 8,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 16,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 10,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": ""
+      }
+    }
+  },
+  {
+    "id": "sub-d1d6eecd",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T18:27:54Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 35.0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 47.0,
+    "totalPossibleMarks": 50,
+    "percentage": 94.0,
+    "status": "final_graded",
+    "teacherFeedback": "Outstanding technical depth and clear formulation.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": true,
+        "awardedMarks": 4.0,
+        "maxMarks": 4,
+        "feedback": "Graded by instructor: 4.0 marks awarded.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": true,
+        "awardedMarks": 7.0,
+        "maxMarks": 8,
+        "feedback": "Graded by instructor: 7.0 marks awarded.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": true,
+        "awardedMarks": 15.0,
+        "maxMarks": 16,
+        "feedback": "Graded by instructor: 15.0 marks awarded.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": true,
+        "awardedMarks": 9.0,
+        "maxMarks": 10,
+        "feedback": "Graded by instructor: 9.0 marks awarded.",
+        "modelAnswer": ""
+      }
+    },
+    "gradedAt": "2026-11-11T18:27:54Z"
+  },
+  {
+    "id": "sub-45dbee72",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T18:27:54Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 12,
+    "totalPossibleMarks": 50,
+    "percentage": 24.0,
+    "status": "pending_teacher_review",
+    "teacherFeedback": "Objective section auto-graded. Subjective questions queued for instructor review.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 4,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 8,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 16,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 10,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": ""
+      }
+    }
+  },
+  {
+    "id": "sub-7a0328a9",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T18:17:07Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 35.0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 47.0,
+    "totalPossibleMarks": 50,
+    "percentage": 94.0,
+    "status": "final_graded",
+    "teacherFeedback": "Outstanding technical depth and clear formulation.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": true,
+        "awardedMarks": 4.0,
+        "maxMarks": 4,
+        "feedback": "Graded by instructor: 4.0 marks awarded.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": true,
+        "awardedMarks": 7.0,
+        "maxMarks": 8,
+        "feedback": "Graded by instructor: 7.0 marks awarded.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": true,
+        "awardedMarks": 15.0,
+        "maxMarks": 16,
+        "feedback": "Graded by instructor: 15.0 marks awarded.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": true,
+        "awardedMarks": 9.0,
+        "maxMarks": 10,
+        "feedback": "Graded by instructor: 9.0 marks awarded.",
+        "modelAnswer": ""
+      }
+    },
+    "gradedAt": "2026-11-11T18:17:07Z"
+  },
+  {
+    "id": "sub-2a7facec",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T18:17:07Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 12,
+    "totalPossibleMarks": 50,
+    "percentage": 24.0,
+    "status": "pending_teacher_review",
+    "teacherFeedback": "Objective section auto-graded. Subjective questions queued for instructor review.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 4,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 8,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 16,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 10,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": ""
+      }
+    }
+  },
+  {
+    "id": "sub-6c8d566a",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T18:16:43Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 35.0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 47.0,
+    "totalPossibleMarks": 50,
+    "percentage": 94.0,
+    "status": "final_graded",
+    "teacherFeedback": "Outstanding technical depth and clear formulation.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": true,
+        "awardedMarks": 4.0,
+        "maxMarks": 4,
+        "feedback": "Graded by instructor: 4.0 marks awarded.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": true,
+        "awardedMarks": 7.0,
+        "maxMarks": 8,
+        "feedback": "Graded by instructor: 7.0 marks awarded.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": true,
+        "awardedMarks": 15.0,
+        "maxMarks": 16,
+        "feedback": "Graded by instructor: 15.0 marks awarded.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": true,
+        "awardedMarks": 9.0,
+        "maxMarks": 10,
+        "feedback": "Graded by instructor: 9.0 marks awarded.",
+        "modelAnswer": ""
+      }
+    },
+    "gradedAt": "2026-11-11T18:16:43Z"
+  },
+  {
+    "id": "sub-956494ff",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "student-test-01",
+    "studentName": "Jordan Miller",
+    "submittedAt": "2026-11-11T18:16:43Z",
+    "timeSpentSeconds": 1820,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-num-1": 1048576,
+      "q-sa-1": "Hallucination is generating false assertions. RAG grounds responses in verified vector passages.",
+      "q-la-1": "Multi-Head Attention linearly projects queries, keys, and values into multiple subspaces in parallel.",
+      "q-desc-1": "Full end-to-end architecture with PyPDF ingestion, ChromaDB HNSW indexing, and role-adaptive prompt synthesis.",
+      "q-cs-1-sub1": "Parametric failure mode resolved by dense retrieval grounding."
+    },
+    "autoGradedScore": 12,
+    "maxObjectiveMarks": 12,
+    "manualGradedScore": 0,
+    "maxSubjectiveMarks": 38,
+    "totalScore": 12,
+    "totalPossibleMarks": 50,
+    "percentage": 24.0,
+    "status": "pending_teacher_review",
+    "teacherFeedback": "Objective section auto-graded. Subjective questions queued for instructor review.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 1,
+        "explanation": "Dividing by sqrt(d_k) counteracts large dot products for large values of d_k, preventing the softmax function from yielding tiny gradients during backpropagation."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": 0,
+        "explanation": "True. Self-attention connects all token positions with a constant number of sequentially executed operations, eliminating the temporal step-by-step dependency bottleneck."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "correctAnswer": "vector",
+        "explanation": "Vector databases (such as ChromaDB) index high-dimensional embedding vectors using approximate nearest neighbor algorithms (e.g. HNSW)."
+      },
+      "q-sa-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 4,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Hallucination refers to the generation of plausible-sounding but factually ungrounded assertions. RAG mitigates hallucination by: (1) Conditioning generation directly on verified external document chunks retrieved via vector similarity, and (2) Providing exact page/paragraph citations that ground every claim in verifiable source evidence."
+      },
+      "q-la-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 8,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "Multi-Head Attention linearly projects queries, keys, and values h times with different learned linear projections to d_k, d_k, and d_v dimensions respectively. On each of these projected versions, attention is performed in parallel, yielding d_v-dimensional output values. These are concatenated and once again projected. This is superior because it allows the model to jointly attend to information from different representation subspaces at different positions, whereas a single attention head averages these representations and prevents isolating distinct relational dependencies."
+      },
+      "q-desc-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 16,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": "An end-to-end Document Research Assistant incorporates: (1) Ingestion: PyPDF text extraction, cleaning (regex whitespace/hyphen repair), and sliding-window chunking (512 tokens with 50-token overlap). (2) Embedding: Dense embedding model (e.g. text-embedding-004) projecting passages into a 768-dimensional metric space. (3) Vector Indexing: ChromaDB HNSW indexing constructing multi-layer proximity graphs for O(log N) nearest neighbor search. (4) Retrieval & Re-ranking: Cosine similarity or Maximal Marginal Relevance (MMR) retrieving top-k evidentiary passages. (5) Role-Adaptive Synthesis: Prompt templates adapting depth, vocabulary, and supplementary insights for Student, Teacher, and Researcher personas."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "correctAnswer": 1048576,
+        "explanation": "1. For W_Q: 512 * (8 * 64) = 512 * 512 = 262,144 parameters.\n2. For W_K: 512 * 512 = 262,144 parameters.\n3. For W_V: 512 * 512 = 262,144 parameters.\n4. For W_O: (8 * 64) * 512 = 512 * 512 = 262,144 parameters.\n5. Total = 4 * 262,144 = 1,048,576 parameters (or 2^20 = 1,048,576)."
+      },
+      "q-cs-1": {
+        "isCorrect": null,
+        "awardedMarks": 0,
+        "maxMarks": 10,
+        "feedback": "Submitted. Pending Teacher Evaluation.",
+        "modelAnswer": ""
+      }
+    }
+  },
+  {
+    "id": "sub-alex-1",
+    "paperId": "paper-model-1",
+    "paperTitle": "Advanced Deep Learning & RAG Architectures: University End-Semester Examination",
+    "studentId": "user-student",
+    "studentName": "Alex Chen",
+    "submittedAt": "2026-11-10T14:22:00Z",
+    "timeSpentSeconds": 5420,
+    "answers": {
+      "q-mcq-1": 1,
+      "q-tf-1": 0,
+      "q-fb-1": "vector",
+      "q-sa-1": "Hallucination is generating ungrounded facts. RAG mitigates this by conditioning generation on retrieved evidence chunks and citing source page numbers.",
+      "q-la-1": "Multi-Head Attention projects Q, K, V into h subspaces in parallel and concatenates results, allowing joint attention to diverse relational contexts.",
+      "q-desc-1": "The architecture incorporates PyPDF ingestion, text-embedding-004 vectors, ChromaDB HNSW indexing, MMR retrieval, and role-adaptive prompt synthesis for Students, Teachers, and Researchers.",
+      "q-num-1": "1048576",
+      "q-cs-1-sub1": "The failure was caused by parametric hallucination. RAG grounds answers directly in chapter 4 chunks.",
+      "q-cs-1-sub2": "Implement a Faithfulness / Grounding score comparing generated claims with retrieved chunks."
+    },
+    "autoGradedScore": 6,
+    "maxObjectiveMarks": 6,
+    "manualGradedScore": 40,
+    "maxSubjectiveMarks": 44,
+    "totalScore": 46,
+    "totalPossibleMarks": 50,
+    "percentage": 92.0,
+    "status": "final_graded",
+    "teacherFeedback": "Excellent analytical clarity, rigorous mathematical understanding of MHA parameter counts, and solid understanding of RAG hallucination guardrails.",
+    "questionResults": {
+      "q-mcq-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "explanation": "Dividing by sqrt(d_k) preserves unit variance in dot-products."
+      },
+      "q-tf-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "explanation": "True. Self-attention has O(1) sequential path length."
+      },
+      "q-fb-1": {
+        "isCorrect": true,
+        "awardedMarks": 2,
+        "maxMarks": 2,
+        "explanation": "Correct. Vector databases index dense representations."
+      },
+      "q-sa-1": {
+        "isCorrect": true,
+        "awardedMarks": 4,
+        "maxMarks": 4,
+        "feedback": "Well-defined hallucination definition and two valid mitigation strategies."
+      },
+      "q-la-1": {
+        "isCorrect": true,
+        "awardedMarks": 7,
+        "maxMarks": 8,
+        "feedback": "Clear explanation of multi-subspace projection."
+      },
+      "q-desc-1": {
+        "isCorrect": true,
+        "awardedMarks": 15,
+        "maxMarks": 16,
+        "feedback": "Comprehensive architectural flow diagram and layer explanation."
+      },
+      "q-num-1": {
+        "isCorrect": true,
+        "awardedMarks": 6,
+        "maxMarks": 6,
+        "explanation": "Exact calculation of 4 * 512^2 = 1,048,576 parameters."
+      },
+      "q-cs-1": {
+        "isCorrect": true,
+        "awardedMarks": 8,
+        "maxMarks": 10,
+        "feedback": "Thoughtful ground truth evaluation metric."
+      }
+    }
+  }
+]

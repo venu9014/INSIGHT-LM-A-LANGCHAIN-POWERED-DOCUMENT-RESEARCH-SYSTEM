@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Python / Testing
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Storage / Binary Uploads & Vector DB
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/chroma_db/*
+!backend/data/chroma_db/.gitkeep
+
+# Environment & Secrets
+.env
+.env*.local
+*.pem
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

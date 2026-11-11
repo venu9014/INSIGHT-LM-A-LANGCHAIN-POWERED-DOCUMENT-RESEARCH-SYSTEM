@@ -1,0 +1,199 @@
+[
+  {
+    "id": "doc-1794402936-1880a5",
+    "sourceId": "SRC-FINAL DE-80a5",
+    "name": "final deaft dl.pdf",
+    "type": "Research Papers",
+    "pages": 30,
+    "uploadedAt": "Just now",
+    "status": "Indexed",
+    "size": "2.3 MB",
+    "authors": "Extracted Authors",
+    "year": 2026,
+    "chunksCount": 30,
+    "abstract": "--- Page 1 ---\nMVJ COLLEGE OF ENGINEERING \n(An Autonomous Institute) \nAffiliated to VTU, Belagavi, Approved by AICTE, New Delhi, \nRecognized by UGC with 12(f) & 12(B), Accredited by NBA & NAAC \n \nDEPARTMENT OF COMPUTER SCIENCE AND \nENGINEERING (DATA SCIENCE) \n \nREPORT ON: \nSpeech Emotion Recognition System with CNN \nSUBJECT NAME: DEEP LEARNING \nACTIVITY: ALTERNATIVE ASSESSMENT TOOL (AAT) \u2013 30 MA...",
+    "tags": [
+      "Mvj College Of Engineering",
+      "An Autonomous Institute",
+      "Affiliated To Vtu",
+      "Approved By Aicte",
+      "New Delhi"
+    ],
+    "pageContent": [
+      {
+        "pageNumber": 1,
+        "text": "MVJ COLLEGE OF ENGINEERING \n(An Autonomous Institute) \nAffiliated to VTU, Belagavi, Approved by AICTE, New Delhi, \nRecognized by UGC with 12(f) & 12(B), Accredited by NBA & NAAC \n \nDEPARTMENT OF COMPUTER SCIENCE AND \nENGINEERING (DATA SCIENCE) \n \nREPORT ON: \nSpeech Emotion Recognition System with CNN \nSUBJECT NAME: DEEP LEARNING \nACTIVITY: ALTERNATIVE ASSESSMENT TOOL (AAT) \u2013 30 MARKS \n \nSUBMITTED BY: \n \nUSN NAME \n1MJ24CD402 DEEPAK S J \n1MJ24CD404 M JAYANTH \n1MJ24CD411 V ARSHITHA H \n1MJ24CD412 VENUGOPAL REDDY C \n \n \n \n \n \nGuidance by \nProf. PARMESHWARI",
+        "section": "Page 1"
+      },
+      {
+        "pageNumber": 2,
+        "text": "MVJ COLLEGE OF ENGINEERING \nBENGALURU - 560067 \n(Autonomous Institution Affiliated to VTU, Belagavi) \nDEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE) \n \nCERTIFICATE \n \nThis is to certify that the project work titled \"Speech Emotion Recognition System with CNN\" , \nundertaken for the course Deep Learning as part of the Alternative Assessment Tool (AAT), is carried out \nby Deepak S J(1MJ4CD402), M Jayanth(1MJ24CD404), Varshitha H(1MJ24CD411) and Venugopal \nReddy C (1MJ24CD412) , bonafide students of MVJ College of Engineering, Bengaluru, in partial \nfulfilment for the award of the Degree of Bachelor of Engineering in Computer Science and Engineering \n(Data Science) of the Visvesvaraya Technological University, Belagavi, during the year 2026 - 2027. \nIt is certified that all corrections/suggestions indicated for the Internal Assessment have been incorporated \nin the report deposited in the departmental library. The report has been approved as it satisfies the academic \nrequirements in respect of the project work prescribed by the institution for the said Degree. \n \n \n \n \nSignature of Guide \nProf. Parmeshwari \nAssistant Professor, \nCSE - Data Science",
+        "section": "Page 2"
+      },
+      {
+        "pageNumber": 3,
+        "text": "MVJ COLLEGE OF ENGINEERING \nNear ITPB, Whitefield, Bangalore - 560067 \nDEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING \n(DATA SCIENCE) \n \nDECLARATION \n \nWe, students of B.E., Department of Computer Science and Engineering (Data Science), MVJ College of \nEngineering, Bengaluru, hereby declare that the project titled \"SPEECH EMOTION RECOGNITION \nSYSTEM WITH CNN\" has been carried out by us and submitted in partial fulfilment for the award of \nthe Degree of Bachelor of Engineering in Computer Science and Engineering (Data Science) during the \nyear 2026 - 2027. Further, we declare that the content of the report has not been submitted previously by \nanybody for the award of any Degree or Diploma to any other University. \nWe also declare that any Intellectual Property Rights generated out of this project carried out at MVJCE \nwill be the property of MVJ College of Engineering, Bengaluru and we will be one of the authors of the \nsame. \n \n \n \n \n1MJ24CD402 DEEPAK S J \n1MJ24CD404 M JAYANTH \n1MJ24CD411 VARSHITHA H \n1MJ24CD412 VENUGOPAL REDDY C \n \n \n \nPlace: BENGALURU \nDate: 15 -10-2026",
+        "section": "Page 3"
+      },
+      {
+        "pageNumber": 4,
+        "text": "Deep Learning \u2013 Alternative Assessment Tool (AAT) Speech Emotion Recognition System with CNN \n \n 4 \nTABLE OF CONTENTS \nIntroduction ............................................................................................................................. ............. 5 \n1. Problem Statement ............................................................................................................................ 6 \n2. Objectives ............................................................................................................................. ............. 7 \n3. Background Study ............................................................................................................................. 8 \n3.1 Traditional machine learning approaches...................................................................................... ............... 8 \n3.2 Deep learning approaches..................................................................................................... ........................ 8 \n3.3 Why use CNN?....................................................................... ...................................................................... 9 \n4. Dataset ..................................................................................................................... ........................ 10 \n4.1 Dataset Description ......................................................................................................... ...................... 10 \n4.2 Dataset preprocessing\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026...11 \n5. Project Design ............................................................................................................................. .... 12 \n5.1 System Architecture ......................................................................................................... .................... 12 \n5.2 Models of the system ........................................................................................................ ................... 12 \n5.3 2D CNN Baseline Layer -by-Layer Geometry............................................................................................. 13 \n5.4 CNN -LSTM Hybrid Layer -by-Layer Geometry.........................................................................................13 \n6. Implementation............................................................................................................... ................. 14 \n6.1 Working code\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u202620 \n7. Results and \nAnalysis ............................................................................................................................. ......21 \n7.1 Training Behaviour .......................................................................................................... ..................... 29 \n8. Demonstration ............................................................................................................... .................. 30 \n9. Conclusion and Future Work ....................................................................................................... 31",
+        "section": "Page 4"
+      },
+      {
+        "pageNumber": 5,
+        "text": "Deep Learning \u2013 Alternative Assessment Tool (AAT) Speech Emotion Recognition System with CNN \n \n 5 INTRODUCTION \n \nSpeech Emotion Recognition (SER) is an artificial intelligence technology used to identify human emotions \nfrom speech signals. Human speech contains emotional information such as happiness, sadness, anger, fear, \nand neutrality, which can be recognized by a nalyzing characteristics such as pitch, tone, energy, and \nfrequency. \nA Convolutional Neural Network (CNN) is a deep learning algorithm that can automatically learn \nimportant features from speech representations, such as Mel -Frequency Cepstral Coefficients (MFCCs) and \nMel spectrograms. \nThe proposed Speech Emotion Recognition System with CNN takes an audio recording as input, processes \nthe speech signal, extracts relevant features, and classifies the speaker's emotion using a trained CNN model. \nThe system can be applied in human -computer interaction, customer service, healthcare support, and virtual \nassistants. \nFor example, a person speaking with a high -energy voice may express happiness or excitement, while a \nslower, softer voice may sometimes indicate sadness. These characteristics can be analyzed using digital \nsignal processing and deep learning techniques. \nIn this project, a Convolutional Neural Network (CNN) is used to recognize emotions from speech \nrecordings. The audio signal is first preprocessed, and features such as Mel -Frequency Cepstral Coefficients \n(MFCCs) or Mel spectrograms are extracted. These features are then passed to the CNN model, which learns \npatterns associated with different emotional states. \nThe system can classify speech into predefined categories such as happy, sad, angry, neutral, fearful, calm, \ndisgust, and surprised, depending on the dataset used. \n \nImportance of the project \n\u26ab Improves interaction between humans and intelligent systems. \n\u26ab Helps computers understand emotional aspects of speech. \n\u26ab Automates emotion classification and reduces manual analysis. \n\u26ab Supports the development of emotion -aware virtual assistants. \n\u26ab Provides a foundation for speech analytics and customer experience research.",
+        "section": "Page 5"
+      },
+      {
+        "pageNumber": 6,
+        "text": "Deep Learning \u2013 Alternative Assessment Tool (AAT) Speech Emotion Recognition System with CNN \n \n 6 \n1. PROBLEM STATEMENT \n \nTraditional speech recognition systems primarily focus on identifying spoken words rather than understanding \nthe emotions expressed by the speaker. Manually identifying emotions from speech is difficult because \nemotional expressions vary depending on the s peaker, speaking style, accent, and intensity. \nTherefore, the problem is to develop an automated Speech Emotion Recognition System using a CNN model \nthat can analyze audio signals, extract meaningful speech features, and classify emotions accurately. \nThe system aims to reduce manual effort and improve the ability of computers to recognize emotional \npatterns in human speech. \nConventional speech recognition systems are primarily designed to convert spoken language into text. \nHowever, they do not necessarily identify the emotional state expressed through the speaker's voice. \nManual emotion identification is time -consuming and subjective because the same words can convey \ndifferent emotions depending on tone, pitch, intensity, and speaking style. \nThe main problem is to design and implement an automated system that analyzes speech recordings and \naccurately classifies their emotional characteristics using a CNN -based deep learning model. \nThe system must address the following challenges: \n1. Variability in speech: Different people express the same emotion differently. \n2. Overlapping emotions: Happiness, excitement, anger, and fear may share some acoustic \ncharacteristics. \n3. Audio noise: Background sounds can affect feature extraction. \n4. Feature complexity: Raw audio contains a large amount of information that may not directly help \nclassification. \n5. Model generalization: A model trained on a limited set of speakers may not perform equally well on \nunfamiliar speakers.",
+        "section": "Page 6"
+      },
+      {
+        "pageNumber": 7,
+        "text": "Deep Learning \u2013 Alternative Assessment Tool (AAT) Speech Emotion Recognition System with CNN \n \n 7 \n2. OBJECTIVES \n \n \n1.To recognize human emotions: Identify emotions such as happiness, sadness, anger, fear, calmness, and \nneutrality from speech recordings. \n2. To preprocess audio signals: Remove unnecessary noise where possible, standardize audio formats, \nand prepare speech recordings for analysis. \n3. To extract speech features: Extract important acoustic features using MFCCs (Mel -Frequency \nCepstral Coefficients) or Mel spectrograms. \n4. To develop a CNN model: Design and train a Convolutional Neural Network to learn meaningful \npatterns from speech features. \n5. To classify emotions automatically: Predict the appropriate emotion category from the extracted \nfeatures without manual intervention. \n6. To improve classification performance: Evaluate and optimize the model using appropriate training \ntechniques and parameters. \n7. To evaluate the model: Measure performance using accuracy, precision, recall, F1 -score, and a \nconfusion matrix. \n8. To develop a user -friendly interface: Allow users to upload speech recordings and view the predicted \nemotion. \n9. To explore real -world applications: Support potential applications in virtual assistants, customer \nservice, human -computer interaction, and speech analytics. \n \n3.BACKGROUND STUDY \n \n \n \nSpeech Emotion Recognition combines digital signal processing, machine learning, and deep learning to \nidentify emotions from vocal characteristics. \nPrevious approaches to emotion recognition used traditional machine learning algorithms such as Support \nVector Machines (SVM), Random Forest, and K -Nearest Neighbors. These methods generally depend on \nmanually designed audio features. \nDeep learning techniques, including CNNs, recurrent neural networks (RNNs), and CNN -LSTM models, \nhave been explored to improve emotion classification. \nA CNN is particularly useful for learning local patterns from spectrograms, which represent how the \nfrequency content of speech changes over time. \nTechnique Description \nMFCC Represents the short -term spectral characteristics of speech. \nMel spectrogram Represents audio frequency energy over time. \nSVM Classifies emotions using extracted features.",
+        "section": "Page 7"
+      },
+      {
+        "pageNumber": 8,
+        "text": "Deep Learning \u2013 Alternative Assessment Tool (AAT) Speech Emotion Recognition System with CNN \n \n 8 CNN Learns patterns from spectrograms or other feature representations. \nCNN -LSTM Combines CNN feature extraction with sequential learning. \n \n3.1 Traditional machine learning approaches \n\u26ab Earlier SER systems used manually extracted features and traditional classifiers. \n\u26ab Support Vector Machine (SVM): Separates emotion classes using learned decision boundaries. \n\u26ab K-Nearest Neighbors (KNN): Classifies speech based on the closest feature vectors. \n\u26ab Random Forest: Combines multiple decision trees for classification. \n\u26ab Gaussian Mixture Models (GMM): Models statistical distributions of acoustic features. \n3.2 Deep learning approaches \nDeep learning models learn useful representations from training data. \n\u26ab CNN: Learns local patterns from spectrograms and other time -frequency representations. \n\u26ab RNN: Models sequential relationships in speech features. \n\u26ab LSTM: Captures longer -term sequential dependencies. \n\u26ab CNN -LSTM: Combines CNN -based feature extraction with temporal modeling. \n\u26ab Transformer -based models: Learn relationships across speech sequences using attention mechanisms. \n3.3 Why use CNN? \nA spectrogram is a two -dimensional representation of sound, with time on one axis and frequency on the \nother. CNN filters can learn local patterns such as changes in energy and frequency over time. \n \n \nThe CNN approach offers the following advantages: \n\u26ab Automatic feature learning from input representations. \n\u26ab Effective processing of two -dimensional spectrograms. \n\u26ab Parameter sharing through convolutional filters. \n\u26ab Hierarchical feature extraction across multiple layers. \n\u26ab Compatibility with commonly available deep learning frameworks. \n\u26ab However, CNN performance depends on the dataset, input representation, model complexity, and \nevaluation methodology.",
+        "section": "Page 8"
+      },
+      {
+        "pageNumber": 9,
+        "text": "Deep Learning \u2013 Alternative Assessment Tool (AAT) Speech Emotion Recognition System with CNN \n \n 9 \n4. DATASET \n \n \n \nThe dataset contains speech recordings labeled with the emotions expressed by the speakers. A suitable \ndataset for this project is the RA VDESS (Ryerson Audio -Visual Database of Emotional Speech and Song) \ndataset. \n \n \n \nfigure.4.1 : RA VDESS \u2014 Ryerson Audio -Visual Database of \nEmotional Speech and Song \nA widely used research dataset containing acted emotional \nspeech and song recordings from 24 professional actors. \nOfficial dataset: Zenodo \u2013 RA VDESS \n \n \n \nThe speech -only portion contains 1,440 audio recordings. The dataset provides labeled examples \nacross eight emotion categories. \n \n \nEmotion Description \nNeutral \n Emotionally neutral speech \n \nCalm \n Relaxed or composed speech \n \nHappy \n Speech expressing happiness \n \nSad \n Speech expressing sadness \n \nAngry \n Speech expressing anger \n \nFearful \n Speech expressing fear \n \nDisgust \n Speech expressing disgust \n \nSurprised \n Speech expressing surprise",
+        "section": "Page 9"
+      },
+      {
+        "pageNumber": 10,
+        "text": "Deep Learning \u2013 Alternative Assessment Tool (AAT) Speech Emotion Recognition System with CNN \n \n 10 \n \n \n \n \n4.2: Dataset preprocessing \nStep 1: Audio loading \nLoad recordings using Librosa or SoundFile. \nStep 2: Sampling rate standardization \nConvert recordings to a consistent sampling rate when necessary. \nStep 3: Audio length handling \nTrim silence or pad/truncate recordings to a consistent length if required by the model. \nStep 4: Feature extraction \nExtract MFCCs or Mel spectrograms from each recording. \nStep 5: Label encoding \nMap each emotion category to a numerical label, for example: \nAngry \u2192 0 \nHappy \u2192 1 \nNeutral \u2192 2 \nSad \u2192 3 \nThe actual mapping can differ depending on the implementation. \nStep 6: Dataset splitting \nSeparate the data into training, validation, and testing subsets. \nAn example split is 70% training, 15% validation, and 15% testing. For a reliable evaluation, recordings \nfrom the same speaker should be handled carefully to prevent speaker leakage. A speaker -independent split \nis preferable when the goal is to evaluate pe rformance on unseen speakers.",
+        "section": "Page 10"
+      }
+    ]
+  },
+  {
+    "id": "doc-1",
+    "sourceId": "SRC-TRANSFORMER-2017",
+    "name": "Transformer_Architecture.pdf",
+    "type": "Research Papers",
+    "pages": 28,
+    "uploadedAt": "Today, 08:30 AM",
+    "status": "Indexed",
+    "size": "2.4 MB",
+    "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit",
+    "year": 2017,
+    "doi": "10.48550/arXiv.1706.03762",
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks. We propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies.",
+    "tags": [
+      "Transformers",
+      "Self-Attention",
+      "NLP",
+      "Deep Learning"
+    ],
+    "chunksCount": 142,
+    "pageContent": [
+      {
+        "pageNumber": 1,
+        "text": "Attention Is All You Need. Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, \u0141ukasz Kaiser, Illia Polosukhin. Abstract: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The proposed Transformer dispenses entirely with recurrence and convolutions."
+      },
+      {
+        "pageNumber": 3,
+        "text": "Section 3.1: Model Architecture. The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder. Multi-Head Attention allows the model to jointly attend to information from different representation subspaces at different positions."
+      },
+      {
+        "pageNumber": 7,
+        "text": "Section 3.2: Attention Mechanism Formulation. An attention function can be described as mapping a query and a set of key-value pairs to an output. Scaled Dot-Product Attention computes: Attention(Q, K, V) = softmax(QK^T / sqrt(d_k))V. Multi-Head Attention linearly projects queries, keys and values h times with learned parameter matrices."
+      }
+    ]
+  },
+  {
+    "id": "doc-2",
+    "sourceId": "SRC-BERT-2018",
+    "name": "BERT_Language_Representation.pdf",
+    "type": "Research Papers",
+    "pages": 16,
+    "uploadedAt": "Yesterday",
+    "status": "Indexed",
+    "size": "1.8 MB",
+    "authors": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova",
+    "year": 2018,
+    "doi": "10.48550/arXiv.1810.04805",
+    "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context.",
+    "tags": [
+      "BERT",
+      "Bidirectional Encoders",
+      "Pre-training",
+      "Transfer Learning"
+    ],
+    "chunksCount": 98,
+    "pageContent": [
+      {
+        "pageNumber": 1,
+        "text": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. Google AI Language. Abstract: We introduce BERT. Unlike previous models, BERT is designed to pre-train deep bidirectional representations from unlabeled text."
+      },
+      {
+        "pageNumber": 4,
+        "text": "Section 3: BERT Model Architecture. BERT's model architecture is a multi-layer bidirectional Transformer encoder based on the original implementation described in Vaswani et al. (2017). We introduce two model sizes: BERT-Base (L=12, H=768, A=12, Total Parameters=110M) and BERT-Large (L=24, H=1024, A=16, Total Parameters=340M)."
+      }
+    ]
+  },
+  {
+    "id": "doc-3",
+    "sourceId": "SRC-RAG-2020",
+    "name": "RAG_Systematic_Review.pdf",
+    "type": "Reports",
+    "pages": 31,
+    "uploadedAt": "3 days ago",
+    "status": "Indexed",
+    "size": "3.1 MB",
+    "authors": "Patrick Lewis, Ethan Perez, Aleksandara Piktus, Fabio Petroni",
+    "year": 2020,
+    "doi": "10.48550/arXiv.2005.11401",
+    "abstract": "Large pre-trained language models have been shown to store factual knowledge in their parameters, but their ability to precisely access and manipulate knowledge is still limited. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) combining pre-trained parametric and non-parametric memory.",
+    "tags": [
+      "RAG",
+      "Retrieval-Augmented Generation",
+      "Vector Search",
+      "ChromaDB"
+    ],
+    "chunksCount": 184,
+    "pageContent": [
+      {
+        "pageNumber": 1,
+        "text": "Retrieval-Augmented Generation for Knowledge-Intensive Tasks. Patrick Lewis et al. We introduce RAG models where the parametric memory is a pre-trained seq2seq transformer and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever."
+      },
+      {
+        "pageNumber": 6,
+        "text": "Section 4: Empirical Evaluation on Open-Domain QA. In empirical benchmark evaluations across Natural Questions, CuratedTREC, and WebQuestions, retrieval-augmented grounding reduces factual hallucination rates by 42% compared to standard closed-book language models."
+      }
+    ]
+  },
+  {
+    "id": "doc-4",
+    "sourceId": "SRC-CHROMA-2024",
+    "name": "Vector_Database_Indexing.pdf",
+    "type": "Notes",
+    "pages": 14,
+    "uploadedAt": "5 days ago",
+    "status": "Indexed",
+    "size": "1.2 MB",
+    "authors": "Data Science Research Working Group",
+    "year": 2024,
+    "doi": "10.1145/3618257.3624801",
+    "abstract": "Comprehensive architectural guide to high-dimensional nearest-neighbor indexing, covering Hierarchical Navigable Small World (HNSW) graphs, inverted file flat (IVF) quantization, and cosine distance performance in ChromaDB.",
+    "tags": [
+      "ChromaDB",
+      "Vector DB",
+      "HNSW",
+      "Embeddings"
+    ],
+    "chunksCount": 76,
+    "pageContent": [
+      {
+        "pageNumber": 1,
+        "text": "High-Dimensional Vector Database Indexing & HNSW Graph Optimization. ChromaDB technical guide. Explains how vector stores maintain multi-layer skip-list graphs to achieve O(log N) nearest-neighbor retrieval latency."
+      }
+    ]
+  }
+]
