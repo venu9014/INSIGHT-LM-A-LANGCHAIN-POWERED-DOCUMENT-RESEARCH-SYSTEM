@@ -189,6 +189,71 @@ tests/test_unit_and_rag.py ........                                      [100%]
 
 ---
 
+## Repository Structure: Both Frontend & Backend Included
+
+This repository contains the complete full-stack codebase including both the **React 18 + TypeScript Frontend** and the **Python 3.11 + Flask Backend**:
+
+```text
+├── backend/                       # Python Flask 3.1 & RAG Backend
+│   ├── data/                      # Persistent Storage & Database
+│   │   ├── users.json             # 6 Indian Academic Accounts (Scrypt Hashes)
+│   │   ├── documents.json         # Document Metadata & Corpus Registry
+│   │   ├── question_papers.json   # 8-Format Model Question Papers & Drafts
+│   │   ├── assignments.json       # Published Class Test Assignments
+│   │   ├── submissions.json       # Student Submissions & Grading Records
+│   │   ├── settings.json          # System Hyperparameters & Config
+│   │   ├── chroma_db/             # ChromaDB SQLite3 & Vector Index Storage
+│   │   └── uploads/               # Uploaded PDF Documents
+│   ├── server.py                  # Primary REST API Server (port 8000)
+│   ├── main.py                    # Standalone CLI & Ingestion Pipeline
+│   └── requirements.txt           # Python Dependencies (Flask, PyPDF, ChromaDB)
+│
+├── src/                           # React 18 & TypeScript Frontend
+│   ├── components/                # 27 Modular Academic UI Components
+│   │   ├── auth/                  # AuthScreen (Login, Scrypt, Account Cards)
+│   │   ├── assessment/            # 8-Format Exam Studio & Student Test View
+│   │   ├── assistant/             # RAG Chat, Grounded Citations, Sources
+│   │   ├── bookmarks/             # Saved Research Vault
+│   │   ├── citations/             # IEEE, APA, MLA, BibTeX Citation Generator
+│   │   ├── comparison/            # 10D Comparative Paper Matrix
+│   │   ├── dashboard/             # Role Dashboards, Metrics, Recent Docs
+│   │   ├── documents/             # PDF Upload Modal, Viewer, Doc Manager
+│   │   ├── explorer/              # Research Literature Discovery Engine
+│   │   ├── history/               # Audit Trail & Research Inquiry Log
+│   │   ├── layout/                # Header (Account Switcher) & Sidebar
+│   │   ├── roles/                 # Student, Teacher, Researcher Workspaces
+│   │   ├── settings/              # System Settings & Technical Architecture
+│   │   ├── summarizer/            # Multi-Perspective Synthesis
+│   │   ├── video/                 # Web Speech TTS Lecture Video Studio
+│   │   └── youtube/               # Matched Video Lectures & Project Shelves
+│   ├── services/                  # RAGService.ts (REST Client & API Bridge)
+│   ├── data/                      # sampleData.ts (Demo Profiles & Video Catalogs)
+│   ├── types/                     # index.ts (Full TypeScript Interfaces)
+│   ├── App.tsx                    # Root Application Component & Auth Gate
+│   ├── main.tsx                   # React DOM Entrypoint
+│   └── index.css                  # Tailwind CSS Styles
+│
+├── tests/                         # Automated QA Test Suite (71 Tests)
+│   ├── test_api_endpoints.py      # REST APIs & Upload Validation Tests
+│   ├── test_auth_and_indian_accounts.py # Auth, Scrypt, RBAC Gating Tests
+│   ├── test_rag_query_archetypes.py     # 15 RAG Query Archetype Tests
+│   ├── test_roles_and_assessments.py    # Exam Studio & Grading Tests
+│   ├── test_security_and_performance.py # Traversal, XSS, Benchmark Tests
+│   ├── test_unit_and_rag.py       # Chunking, Cleaning, ChromaDB Tests
+│   └── test_e2e_workflow.py       # 20-Step End-to-End Workflow Test
+│
+├── index.html                     # Frontend Single Page HTML Shell
+├── package.json                   # Frontend npm Dependencies & Scripts
+├── vite.config.ts                 # Vite Bundler & Backend Proxy Configuration
+├── tailwind.config.js             # Academic UI Styling Configuration
+├── tsconfig.json                  # TypeScript Compiler Configuration
+├── .env.example                   # Environment Configuration Template
+├── .gitignore                     # Git Exclusion Rules
+└── README.md                      # Comprehensive Architecture & Setup Guide
+```
+
+---
+
 ## License
 
 This project is licensed under the MIT License — see the LICENSE file for details.
