@@ -40,6 +40,52 @@
         "explanation": "Dense embeddings represent semantic vectors."
       }
     ],
+    "id": "paper-d679376a",
+    "status": "published",
+    "createdAt": "2026-11-11T20:25:26Z",
+    "totalMarks": 10
+  },
+  {
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "examType": "Midterm Examination",
+    "durationMinutes": 90,
+    "instructions": [
+      "Answer all questions."
+    ],
+    "sections": [
+      "Section 1"
+    ],
+    "questions": [
+      {
+        "id": "test-q1",
+        "format": "mcq",
+        "question": "Which layer replaces recurrence?",
+        "options": [
+          "Self-Attention",
+          "Convolution",
+          "Dense",
+          "Pooling"
+        ],
+        "correctIndex": 0,
+        "marks": 5,
+        "explanation": "Self-attention enables parallel computation."
+      },
+      {
+        "id": "test-q2",
+        "format": "fill_blank",
+        "question": "ChromaDB stores high-dimensional ___ vectors.",
+        "correctAnswer": "embedding",
+        "acceptedAnswers": [
+          "embedding",
+          "embeddings"
+        ],
+        "marks": 5,
+        "explanation": "Dense embeddings represent semantic vectors."
+      }
+    ],
     "id": "paper-b5ce2f7f",
     "status": "published",
     "createdAt": "2026-11-11T19:28:31Z",

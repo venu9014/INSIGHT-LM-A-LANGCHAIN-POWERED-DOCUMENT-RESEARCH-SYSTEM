@@ -1,5 +1,20 @@
 [
   {
+    "id": "assign-paper-d679376a",
+    "paperId": "paper-d679376a",
+    "title": "Automated Unit Test Model Exam",
+    "subject": "CS-901 Artificial Intelligence",
+    "course": "Representation Learning",
+    "gradeLevel": "Graduate",
+    "durationMinutes": 90,
+    "totalMarks": 10,
+    "dueDate": "2026-11-25T23:59:59Z",
+    "status": "active",
+    "questionsCount": 2,
+    "assignedBy": "Prof. Elena Rostova",
+    "createdAt": "2026-11-11T20:25:26Z"
+  },
+  {
     "id": "assign-paper-b5ce2f7f",
     "paperId": "paper-b5ce2f7f",
     "title": "Automated Unit Test Model Exam",
