@@ -128,8 +128,11 @@ def load_docs_metadata() -> List[Dict[str, Any]]:
     return []
 
 def save_docs_metadata(docs: List[Dict[str, Any]]):
-    with open(DOCS_METADATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(docs, f, indent=2)
+    try:
+        with open(DOCS_METADATA_FILE, "w", encoding="utf-8") as f:
+            json.dump(docs, f, indent=2)
+    except Exception as ex:
+        print(f"Notice: unable to write docs metadata (read-only environment): {ex}")
 
 def load_question_papers() -> List[Dict[str, Any]]:
     if os.path.exists(QUESTION_PAPERS_FILE):
@@ -141,8 +144,11 @@ def load_question_papers() -> List[Dict[str, Any]]:
     return []
 
 def save_question_papers(papers: List[Dict[str, Any]]):
-    with open(QUESTION_PAPERS_FILE, "w", encoding="utf-8") as f:
-        json.dump(papers, f, indent=2)
+    try:
+        with open(QUESTION_PAPERS_FILE, "w", encoding="utf-8") as f:
+            json.dump(papers, f, indent=2)
+    except Exception as ex:
+        print(f"Notice: unable to write question papers (read-only environment): {ex}")
 
 def load_assignments() -> List[Dict[str, Any]]:
     if os.path.exists(ASSIGNMENTS_FILE):
@@ -154,8 +160,11 @@ def load_assignments() -> List[Dict[str, Any]]:
     return []
 
 def save_assignments(assignments: List[Dict[str, Any]]):
-    with open(ASSIGNMENTS_FILE, "w", encoding="utf-8") as f:
-        json.dump(assignments, f, indent=2)
+    try:
+        with open(ASSIGNMENTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(assignments, f, indent=2)
+    except Exception as ex:
+        print(f"Notice: unable to write assignments (read-only environment): {ex}")
 
 def load_submissions() -> List[Dict[str, Any]]:
     if os.path.exists(SUBMISSIONS_FILE):
@@ -167,8 +176,11 @@ def load_submissions() -> List[Dict[str, Any]]:
     return []
 
 def save_submissions(submissions: List[Dict[str, Any]]):
-    with open(SUBMISSIONS_FILE, "w", encoding="utf-8") as f:
-        json.dump(submissions, f, indent=2)
+    try:
+        with open(SUBMISSIONS_FILE, "w", encoding="utf-8") as f:
+            json.dump(submissions, f, indent=2)
+    except Exception as ex:
+        print(f"Notice: unable to write submissions (read-only environment): {ex}")
 
 def load_users() -> List[Dict[str, Any]]:
     if os.path.exists(USERS_FILE):
@@ -264,8 +276,11 @@ def load_users() -> List[Dict[str, Any]]:
     return default_users
 
 def save_users(users: List[Dict[str, Any]]):
-    with open(USERS_FILE, "w", encoding="utf-8") as f:
-        json.dump(users, f, indent=2)
+    try:
+        with open(USERS_FILE, "w", encoding="utf-8") as f:
+            json.dump(users, f, indent=2)
+    except Exception as ex:
+        print(f"Notice: unable to write users (read-only environment): {ex}")
 
 def sanitize_user(user: Dict[str, Any]) -> Dict[str, Any]:
     safe = dict(user)
@@ -295,8 +310,11 @@ def load_settings() -> Dict[str, Any]:
     return defaults
 
 def save_settings(settings: Dict[str, Any]):
-    with open(SETTINGS_FILE, "w", encoding="utf-8") as f:
-        json.dump(settings, f, indent=2)
+    try:
+        with open(SETTINGS_FILE, "w", encoding="utf-8") as f:
+            json.dump(settings, f, indent=2)
+    except Exception as ex:
+        print(f"Notice: unable to write settings (read-only environment): {ex}")
 
 def sanitize_settings(settings: Dict[str, Any]) -> Dict[str, Any]:
     safe = dict(settings)

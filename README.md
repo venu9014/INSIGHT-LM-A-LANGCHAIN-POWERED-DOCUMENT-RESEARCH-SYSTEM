@@ -6,6 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-v0.5-orange.svg)](https://www.trychroma.com/)
 [![Tests Passing](https://img.shields.io/badge/Automated%20Tests-71%2F71%20PASS-brightgreen.svg)](https://pytest.org/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvenu9014%2FINSIGHT-LM-A-LANGCHAIN-POWERED-DOCUMENT-RESEARCH-SYSTEM)
 
 **Insight-LM** is an end-to-end, multi-modal academic intelligence platform designed for higher education students, university faculty, and scientific researchers. It combines hierarchical PDF document parsing, vector indexing with **ChromaDB**, grounded question answering using **Retrieval-Augmented Generation (RAG)**, role-based workflows, an 8-format teacher question paper studio, automated objective grading, and contextual YouTube lecture discovery.
 
@@ -159,6 +160,31 @@ Copy `.env.example` to `.env` if you want to provide external LLM API keys (Goog
 cp .env.example .env
 ```
 *(Note: The system functions completely out-of-the-box using the built-in ChromaDB index and verified educational catalogs even without external keys.)*
+
+---
+
+## Deploying to Vercel (Frontend + Backend)
+
+This repository includes native Vercel configuration (`vercel.json` and `api/index.py`), enabling seamless serverless deployment of both the **React 18 Frontend** and the **Flask 3.1 Python Backend**.
+
+### Method 1: 1-Click Import from GitHub (Recommended)
+1. Go to [Vercel New Project](https://vercel.com/new).
+2. Connect your GitHub account and import **`venu9014/INSIGHT-LM-A-LANGCHAIN-POWERED-DOCUMENT-RESEARCH-SYSTEM`**.
+3. Vercel automatically detects `vercel.json`:
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+   - **Serverless API**: `api/index.py` handles all `/api/*` endpoints via Python runtime.
+4. Click **Deploy**. Vercel will provision the static edge network for the UI and the Python serverless runtime for the backend!
+
+### Method 2: Deploy via Vercel CLI
+```bash
+# 1. Log in to your Vercel account
+npx vercel login
+
+# 2. Deploy to production
+npx vercel --prod
+```
 
 ---
 
